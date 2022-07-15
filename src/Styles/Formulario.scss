@@ -1,0 +1,51 @@
+.container-listadolinks{
+  
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    
+    padding: 1% 1% 1% 1%;
+    box-shadow: gray 1px 1px 5px;
+    border-radius: 5px;
+  
+}
+.close{
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+  
+}
+.container_titulo{
+  display: flex;
+  justify-content: space-between;
+}
+.container-cont-img{
+ width: 100%;
+}
+.container_img{
+  width: 10%;
+  border-radius: 50%;
+  display: flex;
+  
+}
+.btn_choseim{
+  padding: 2px 20px 2px 20px;
+  margin: 30px 10px 30px 10px;
+  border-radius: 5px;
+  border: solid 1px;
+  background-color: white;
+}
+.img_avatar{
+  width: 100%;
+  border-radius: 100%;
+}
+.forma{
+  width: 98%;
+  border:solid gray 1px;
+  padding: 1% 1% 1% 1%;
+  margin-top: 1%;
+  border-radius: 5px;
+}
+

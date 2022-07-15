@@ -1,0 +1,51 @@
+
+.container-listadolinks{
+  
+  width: 100%;
+  height: auto;
+  margin-left: -1%;
+  
+ 
+  box-shadow: gray 1px 1px 5px;
+  border-radius: 5px;
+
+}
+.close{
+color: black;
+font-size: 15px;
+font-weight: 700;
+}
+.container_close{
+display: flex;
+justify-content: right;
+}
+.container-cont-icon{
+width: 100%;
+display: flex;
+
+margin-top: 10px;
+}
+
+.icon-camera{
+  width: 10%;
+  background-color: rgb(46, 45, 44);
+  
+  font-size: 4rem;
+  border-radius: 4px;
+  
+  }
+.btn_choseim{
+padding: 2px 20px 2px 20px;
+border-radius: 5px;
+border: solid 1px;
+background-color: white;
+}
+
+.forma{
+width: 98%;
+border:solid gray 1px;
+padding: 1% 1% 1% 1%;
+margin-top: 1%;
+border-radius: 5px;
+}
+

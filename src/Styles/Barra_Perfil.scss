@@ -1,0 +1,28 @@
+@import '../Global-Styles.scss';
+.container_barra_perfil{
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1%;
+  display: flex;
+  padding: 1% 1% 1% 1%;
+  box-shadow: gray 1px 1px 5px;
+  border-radius: 5px;
+  
+}
+
+.container_img{
+    width: 10%;
+    border-radius: 50%;
+    
+}
+.img_avatar{
+  width: 100%;
+  border-radius: 100%;
+}
+.icon-pencil{
+  margin-top: 8%;
+  margin-left: 60%;
+  a{color: $font-color-blue;}
+}

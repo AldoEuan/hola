@@ -1,0 +1,57 @@
+@import '../Global-Styles.scss';
+.container_items{
+  width: 80%;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1% 1% 1% 1%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
+}
+.preview{
+  width: 90%;
+ 
+  border-radius: 5px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  box-shadow: gray 1px 1px 5px;
+  a{
+    text-decoration: none;
+    color: $font-color-blue;
+    font-weight: 800;
+  }
+}
+.copy_link{
+  width: 100%;
+  
+  border-radius: 5px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: gray 1px 1px 5px;
+  a{
+    text-decoration: none;
+    color: $font-color-blue;
+    font-weight: 800;
+  }
+}
+.rearrange{
+  width: 90%;
+  height: 10vh;
+ 
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: gray 1px 1px 5px;
+  a{
+    text-decoration: none;
+    color: $font-color-blue;
+    font-weight: 800;
+  }
+}
